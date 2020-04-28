@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+td {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+}
+td:hover {
+  opacity: 0.7;
+}
+
+.click {
+  background-color: #FC6;
+}
