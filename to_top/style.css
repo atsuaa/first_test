@@ -1,0 +1,45 @@
+html *{
+  box-sizing: border-box;
+}
+header{
+  height: 10%;
+  background-color: skyblue;
+}
+footer{height: 200px;}
+
+#container{
+  display: flex;
+}
+#main{
+  flex: 70%;
+}
+#side{
+  font-size: large;
+  flex: 30%;
+  padding: 3%;
+}
+
+.box{
+  height: 500px;
+  background-color: gray;
+}
+
+#side li{
+  cursor:pointer;
+}
+.side-fix{
+  position: fixed;
+  top:0;
+
+}
+.activate{
+  font-weight: bold;
+  background-color: #EEE;
+}
+
+#pagetop{
+  position:fixed;
+  right:20px;
+  bottom:60px;
+  cursor:pointer;
+}
